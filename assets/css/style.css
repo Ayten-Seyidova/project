@@ -1,0 +1,36 @@
+.card {
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-head {
+    background-color: rgb(51, 48, 48);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.card-body {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.card-text {
+    margin-top: 50px;
+}
+
+.head-text {
+    color: rgb(51, 48, 48);
+    margin-top: 0;
+}
+
+a {
+    color: red;
+}
